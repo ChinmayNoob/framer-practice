@@ -5,6 +5,8 @@
   --font-space-grotesk: var(--font-space-grotesk);
   --font-mono: var(--font-mono);
   --font-sans: var(--font-sans);
+  --font-satoshi: var(--font-satoshi);
+  --font-instrument-serif: var(--font-instrument-serif);
 }
 
 .hide-scrollbar::-webkit-scrollbar {

@@ -14,6 +14,8 @@ export default function Home() {
           <Link href='/one' className="text-xl font-bold font-courier-prime underline">one</Link>
           <Link href='/two' className="text-xl font-bold font-courier-prime underline">two</Link>
           <Link href='/three' className="text-xl font-bold font-courier-prime underline">three</Link>
+          <Link href='/four' className="text-xl font-bold font-courier-prime underline">four</Link>
+          <Link href='/five' className="text-xl font-bold font-courier-prime underline">five</Link>
         </div>
       </div>
     </div>
