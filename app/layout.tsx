@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Courier_Prime, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
 import { satoshi, instrumentSerif } from "@/fonts";
 
 const geistSans = Geist({
@@ -39,7 +38,6 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${courierPrime.variable} ${satoshi.variable} ${instrumentSerif.variable} antialiased bg-transparent`}
       >
-        <Header />
         <div className="">
           {children}
         </div>

@@ -53,7 +53,7 @@ export const StrokeAnimation: React.FC = () => {
     }, [mouseX]);
 
     return (
-        <main className="relative flex min-h-screen w-full flex-col items-center justify-center bg-[#181b26] overflow-hidden">
+        <main className="relative flex min-h-screen w-full flex-col items-center justify-center bg-black overflow-hidden">
             {/* Animated background blob - moved to CSS for better performance */}
             <div className={styles.animatedBlob} />
 
