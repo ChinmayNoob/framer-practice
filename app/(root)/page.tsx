@@ -22,6 +22,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold font-courier-prime">Buttons</h1>
         <div className="flex items-center justify-center gap-4">
           <Link href="/seven">Spiderman-Theme</Link>
+          <Link href="/nine">Valorant-Theme</Link>
         </div>
         <h1 className="text-3xl font-bold font-courier-prime">Special Components/Projects</h1>
         <div className="flex items-center justify-center gap-4">

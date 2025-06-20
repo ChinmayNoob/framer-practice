@@ -9,6 +9,12 @@
   --font-instrument-serif: var(--font-instrument-serif);
 }
 
+:root {
+  --color1: rgb(220, 38, 38);
+  --color2: rgb(248, 113, 113);
+  --color3: rgb(239, 68, 68);
+}
+
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
   /* Hide scrollbar for Chrome, Safari, and Opera */
