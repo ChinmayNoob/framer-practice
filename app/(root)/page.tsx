@@ -17,7 +17,19 @@ export default function Home() {
           <Link href='/four' className="text-xl font-bold font-courier-prime underline">four</Link>
           <Link href='/five' className="text-xl font-bold font-courier-prime underline">five</Link>
           <Link href='/six' className="text-xl font-bold font-courier-prime underline">six</Link>
+          <Link href='/eight' className="text-xl font-bold font-courier-prime underline">eight</Link>
         </div>
+        <h1 className="text-3xl font-bold font-courier-prime">Buttons</h1>
+        <div className="flex items-center justify-center gap-4">
+          <Link href="/seven">Spiderman-Theme</Link>
+        </div>
+        <h1 className="text-3xl font-bold font-courier-prime">Special Components/Projects</h1>
+        <div className="flex items-center justify-center gap-4">
+          <Link href='https://one-piece-is-real-alpha.vercel.app/' target="_blank" className="text-xl font-bold font-courier-prime underline">One-Piece</Link>
+          <Link href='https://wesleys-theory.vercel.app/' target="_blank" className="text-xl font-bold font-courier-prime underline">Wesleys Thoery</Link>
+        </div>
+
+
       </div>
     </div>
   );
